@@ -68,5 +68,10 @@ public class Suitcase {
         return things.get(heaviestThingIndex);
     }
 
+    public int getMAX_WEIGHT_LIMIT()
+    {
+        return MAX_WEIGHT_LIMIT;
+    }
+
 
 }

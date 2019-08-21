@@ -36,9 +36,9 @@ public class Container {
         }
         if(suitcases.size() == 1)
         {
-            return suitcases.size() + " " + "thing" + " " + "(" + totalContainerWeight() + " " + "kg" + ")";
+            return suitcases.size() + " " + "suitcase" + " " + "(" + totalContainerWeight() + " " + "kg" + ")";
         }
-        return suitcases.size() + " " + "things" + " " + "(" + totalContainerWeight() + " " + "kg" + ")";
+        return suitcases.size() + " " + "suitcases" + " " + "(" + totalContainerWeight() + " " + "kg" + ")";
     }
 
     public void printThings()
@@ -48,6 +48,9 @@ public class Container {
             s.printThings();
         }
     }
+
+
+
 
 
 }
